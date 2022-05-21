@@ -1,0 +1,131 @@
+.shop{
+    width: 100%;
+    text-align: center;
+    
+}
+
+#Product{
+    width: 100%;
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.product_image{
+    width:100%;
+    position:relative; 
+    margin:0;
+    
+   a p{
+       color: grey;
+   }
+
+   span,p{
+       color: grey;
+   }
+
+    img {
+        width: 100%;
+        left: 0; 
+        position:absolute; 
+        top: 0;
+        transition: 1s;
+    }
+
+    .raz{
+        width: 100%;
+    }
+
+    .dva{
+        width:100%;
+        position:relative;
+    }
+
+    &:hover .raz{
+        opacity: 1;
+        transition: 1s;
+    }
+
+    &:hover .dva{
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .giymet_deyishikliyi{
+        text-decoration: line-through;
+}
+    .endirim b {
+        color: rgb(199, 70, 70);
+    }
+
+    .on_photo{
+        width: 10%;
+        left: 4%;
+        right: 0;
+        top:3%;
+        position: absolute;
+        font-weight: 500;
+        font-size: 12px;
+        color: white;
+        background-color: black;
+        padding: 0;
+        margin: 0;
+    }
+}
+}
+
+#footer{
+    width: 100%;
+    background-image: url(https://i0.wp.com/demo4.drfuri.com/razzi/wp-content/uploads/sites/14/2021/02/footer_bg_1920.png?ssl=1);
+
+
+   
+    .want{
+        color: white;
+        width: 100%;
+        h4{
+            align-items: center;
+            text-align: center;
+        }
+    }
+    .logo{
+        width: 25%;
+        left: 0;
+        margin-left: 7%;
+        
+        h3{
+            color: white;
+        }
+
+        .thumbnails{
+            width: 100%;
+            color: rgb(212, 212, 212);
+            justify-content: space-between;
+        }
+    }
+
+    .widgets{
+        width: 75%;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 7%;
+
+        a{
+            color: rgb(212, 212, 212);
+            text-decoration: none;
+            list-style-type: none;
+        }
+        .osobiy{
+            color: white;
+            list-style-type: none;
+        }
+    }
+
+    .bb{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
